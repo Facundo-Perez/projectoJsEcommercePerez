@@ -1,0 +1,16 @@
+                [{"id": 1, "nombre": "IPA", "imagen":"https://picsum.photos/id/0/600", "precio": 250 },
+
+                {"id": 2, "nombre": "APA", "imagen":"https://picsum.photos/id/0/600", "precio": 300 },
+
+                {"id": 3, "nombre": "SCOTISH", "imagen":"https://picsum.photos/id/0/600", "precio": 250},
+
+                {"id": 4, "nombre": "GOLDEN", "imagen":"https://picsum.photos/id/0/600", "precio": 200},
+
+
+                {"id": 5, "nombre": "DAIKIRI", "imagen":"https://picsum.photos/id/0/600", "precio": 500 },        
+
+                {"id": 6, "nombre": "FERNET", "imagen":"https://picsum.photos/id/0/600", "precio": 450},         
+
+                {"id": 7, "nombre": "GINTONIC", "imagen":"https://picsum.photos/id/0/600", "precio": 400} ,
+
+                {"id": 8, "nombre": "GANCIA", "imagen":"https://picsum.photos/id/0/600", "precio": 350}]
