@@ -1,16 +1,16 @@
-                [{"id": 1, "nombre": "IPA", "imagen":"https://picsum.photos/id/0/600", "precio": 250 },
+                [{"id": 1, "nombre": "IPA", "imagen":"https://recetasdecerveza.net/wp-content/uploads/2018/07/Recetas-de-American-IPA.jpg", "precio": 250 },
 
-                {"id": 2, "nombre": "APA", "imagen":"https://picsum.photos/id/0/600", "precio": 300 },
+                {"id": 2, "nombre": "APA", "imagen":"https://recetasdecerveza.net/wp-content/uploads/2018/07/Recetas-de-American-Pale-Ale.jpg", "precio": 300 },
 
-                {"id": 3, "nombre": "SCOTISH", "imagen":"https://picsum.photos/id/0/600", "precio": 250},
+                {"id": 3, "nombre": "SCOTISH", "imagen":"http://d3ugyf2ht6aenh.cloudfront.net/stores/092/868/products/scottish1-b9512c3dfce3c66a1116248988000734-640-0.png", "precio": 250},
 
-                {"id": 4, "nombre": "GOLDEN", "imagen":"https://picsum.photos/id/0/600", "precio": 200},
+                {"id": 4, "nombre": "GOLDEN", "imagen":"https://elsecretodelacerveza.com/983-home_default/kit-cerveza-golden-ale-endeavour-sin-moler-todo-grano-20-litros.jpg", "precio": 200},
 
 
-                {"id": 5, "nombre": "DAIKIRI", "imagen":"https://picsum.photos/id/0/600", "precio": 500 },        
+                {"id": 5, "nombre": "DAIKIRI", "imagen":"https://as2.ftcdn.net/v2/jpg/03/39/07/05/1000_F_339070514_FfroN0JvJONlnxnYOUtofQxLeud3lkfq.jpg", "precio": 500 },        
 
-                {"id": 6, "nombre": "FERNET", "imagen":"https://picsum.photos/id/0/600", "precio": 450},         
+                {"id": 6, "nombre": "FERNET", "imagen":"https://i.pinimg.com/originals/53/96/56/5396560f839e61270a6ecaa8b4cef3ae.jpg", "precio": 450},         
 
-                {"id": 7, "nombre": "GINTONIC", "imagen":"https://picsum.photos/id/0/600", "precio": 400} ,
+                {"id": 7, "nombre": "GINTONIC", "imagen":"https://t1.uc.ltmcdn.com/es/posts/9/6/4/como_hacer_un_gin_tonic_con_pimienta_51469_orig.jpg", "precio": 400} ,
 
-                {"id": 8, "nombre": "GANCIA", "imagen":"https://picsum.photos/id/0/600", "precio": 350}]
+                {"id": 8, "nombre": "GANCIA", "imagen":"https://cdn.shopify.com/s/files/1/0374/1987/6483/products/gancia_1000x1000.png?v=1590162862", "precio": 350}]

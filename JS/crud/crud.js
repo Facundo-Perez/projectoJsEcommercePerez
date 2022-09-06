@@ -35,7 +35,7 @@ function AgregarProd () {
 
     dbProd.push(datos_cliente); // Guardar datos en el array definido globalmente
     localStorage.setItem("dbProd", JSON.stringify(dbProd));
-
+    
 
 
     ListarProductos();
