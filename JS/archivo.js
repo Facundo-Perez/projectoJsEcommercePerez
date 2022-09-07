@@ -103,7 +103,7 @@ console.log(footer)
 
     const clone = template.cloneNode(true)
     fragment.appendChild(clone)
-
+ 
     footer.appendChild(fragment)
 
 
@@ -132,8 +132,8 @@ console.log(footer)
 }
 
 const accionBotones = () => {
-    const botonesAgregar = document.getElementById('items .btn-info')
-    const botonesEliminar = document.getElementById('items .btn-danger')
+    const botonesAgregar = document.querySelector('#items .btn-info')
+    const botonesEliminar = document.querySelector('#items .btn-danger')
 
 
     botonesAgregar.forEach(btn => {
