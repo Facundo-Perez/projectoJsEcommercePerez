@@ -50,6 +50,7 @@ const detectarBotones = (data) => {
 const items = document.getElementById('items')
 
 const pintarCarrito = () => {
+    items.innerHTML = ''
 
     const template = document.querySelector('#template-carrito').content
     const fragment = document.createDocumentFragment()
