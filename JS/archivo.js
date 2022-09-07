@@ -132,8 +132,8 @@ console.log(footer)
 }
 
 const accionBotones = () => {
-    const botonesAgregar = document.querySelector('#items .btn-info')
-    const botonesEliminar = document.querySelector('#items .btn-danger')
+    const botonesAgregar = document.querySelectorAll('#items .btn-info')
+    const botonesEliminar = document.querySelectorAll('#items .btn-danger')
 
 
     botonesAgregar.forEach(btn => {
