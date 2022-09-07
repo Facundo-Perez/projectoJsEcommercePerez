@@ -12,10 +12,36 @@ const fetchProductos = async () => {
         console.log(error)
     }
 }
+
 const articulos = document.getElementById('articulos')
 const templateArt = document.getElementById('templateArt').content
 const fragment = document.createDocumentFragment()
+
+const  listarLocalStorage = () => {
+    const nodoLocal = document.getElementById('articulos')
+    nodoLocal.innerHTML="";
+    
+    let dbProd = localStorage.getItem("dbProd", JSON.parse(dbProd));
+    dbProd.forEach(() => {
+        
+        const divLocalStorage = document.createElement("div")
+            divLocalStorage.innerHTML=`
+                    <div class="col-12 col-md-4 mb-3">
+                      <div class="card">
+                            <img src="${producto.imagen}" class="card-img-top" alt="Cerveza producida por nosotros">
+                        <div class="card-body">
+                            <h5 class="card-title">${producto.nombre}</h5>
+                            <p class="card-text">$ <span>${producto.precio}</span></p>
+                            <button class="btn btn-success">Comprar</button>
+                        </div>
+                      </div>
+                    </div>`
+                    nodoLocal.appendChild(divLocalStorage);
+    })
+    }
+
 const mostrarArt = (productos) =>{
+    
     //console.log(productos)
     productos.forEach(producto =>{
         templateArt.querySelector('h5').textContent = producto.nombre
@@ -25,9 +51,13 @@ const mostrarArt = (productos) =>{
         const clone = templateArt.cloneNode(true)
         fragment.appendChild(clone)   
     })
+    
     articulos.appendChild(fragment)
+    
 }
 let carrito = {}
+
+
 
 const detectarBotones = (data) => {
     const botones = document.querySelectorAll('.card button')

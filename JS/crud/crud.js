@@ -26,14 +26,14 @@ function Mensaje(t){
 
 function AgregarProd () {
     // Seleccionamos los datos de los inputs de formulario
-    let datos_cliente = JSON.stringify({
+    let datosProducto = JSON.stringify({
         Nombre : $("#nombre").val(),
         id : $("#id").val(),
         precio : $("#precio").val(),
         urlImg : $("#urlImg").val(),
     });
 
-    dbProd.push(datos_cliente); // Guardar datos en el array definido globalmente
+    dbProd.push(datosProducto); // Guardar datos en el array definido globalmente
     localStorage.setItem("dbProd", JSON.stringify(dbProd));
     
 
@@ -55,7 +55,7 @@ function ListarProductos (){
                     "<th> Nombre </th>" +
                     "<th> id </th>" +
                     "<th> precio </th>" +
-                    "<th> urlImg </th>" +
+                    "<th> UrlImg </th>" +
                     "<th> </th>" +
                     "<th>  </th>" +
                 "</tr>" +
